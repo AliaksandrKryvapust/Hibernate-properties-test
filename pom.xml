@@ -70,7 +70,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>6.1.5.Final</version>
+            <version>${hibernate.version}</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
@@ -123,6 +123,7 @@
         <!--        <property name="hibernate.show_sql" value="true" />-->
         <!--        <property name="hibernate.dialect"-->
         <!--                  value="org.hibernate.dialect.MySQLInnoDBDialect" />-->
+        <hibernate.version>6.1.5.Final</hibernate.version>
     </properties>
     <build>
         <plugins>
